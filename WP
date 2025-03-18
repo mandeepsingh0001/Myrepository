@@ -1,0 +1,9 @@
+WORDPRESS_DB_HOST
+WORDPRESS_DB_USER
+WORDPRESS_DB_PASSWORD
+WORDPRESS_DB_NAME
+- Container port is 80 and create 3 pods
+- Use the following labels for the pods and use id as selector 
+id: <your-college-id>
+app: wp-app
+env: dev
